@@ -1,0 +1,656 @@
+
+
+@media (min-width:1920px) {
+    .as-cover {
+        background-size: 100%;
+    }
+}
+
+@media (max-width:1300px) {
+    .as-range .wrp-slider .slider {
+        width: 30px;
+    }
+}
+
+@media (max-width:1250px) {
+    .container {
+        width: 1024px;
+    }
+
+
+    .as-header {
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+        .as-header .as-header-logo {
+            padding-top: 29px;
+            padding-bottom: 29px;
+        }
+        .as-header .as-header-logo a{
+            font-weight: 800;
+            font-size: 34px;
+            text-decoration: none;
+            color: #1a1a1a;
+        }
+
+        .as-header .as-header-menu {
+            padding-top: 24px;
+            padding-bottom: 29px;
+            display: flex;
+        }
+
+/*/////////////////////////////////////COVER*/
+        .as-cover-txt {
+            margin-left: 0px;
+            margin: 0 auto;
+        }
+
+        .as-cover .as-cover-txt {
+            font-size: 42px;
+            display: inline-block;
+            width: 100%;
+            margin: auto;
+    }
+        .as-cover .as-cover-call-back {
+            margin: 71px auto;
+    }
+
+
+/*/////////////////////////////////////RANGE*/
+        .as-range .content-description {
+            padding: 33px 10px 0 10px;
+        }
+        .container-wrp-content {
+            width: 32% !important;
+        }
+        .as-range .content-description .side-h2 {
+            font-size: 16px;
+        }
+
+        .as-range .content-description .text li {
+            font-size: 16px;
+        }
+        .as-range .content-more a {
+            font-size: 18px;
+        }
+}
+
+@media (max-width:1050px) {
+
+    .container {
+        width: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .as-header .as-header-logo a {
+        font-size: 24px;
+    }
+
+    .as-cover .as-cover-txt {
+        font-size: 30px;
+    }
+
+    .as-agvantages-txt {
+        font-size: 18px;
+    }
+
+    .main-h2 {
+        font-size: 24px !important;
+    }
+
+    .as-mailing {
+        padding: 75px 210px;
+    }
+
+    .as-mailing-txt {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .container-txt {
+        display: inline-block;
+        font-size: 14px;
+    }
+
+    .feedback-headline {
+        font-size: 24px;
+    }
+
+     .developers-list + .developers-list {
+        margin-left: 0 !important;
+    }
+
+    .developers-list {
+        width: 50px;
+    }
+
+    /* .developers-list a{
+        width: 219px;
+    } */
+
+    /* .developers .all-developers a {
+        width: 50px;
+    } */
+
+    .developers-headline {
+        font-size: 24px;
+    }
+
+    .developers-feedback .developers {
+        width: 50%;
+    }
+
+    .developers-list + .developers-list {
+        margin-left: 40px;
+    }
+
+    .developers-feedback .feedback {
+        width: 50%;
+     }
+     .developers-list-wrp {
+        column-gap: 100%;
+    }
+
+}
+
+@media (max-width:900px) {
+    .container-txt {
+        display: inline-block;
+        width: auto !important;
+    }
+
+    .container-wrp-content+.container-wrp-content+.container-wrp-content{
+        display: none;
+    }
+    .container-wrp-content {
+        width: 48% !important;
+    }
+
+}
+@media (max-width:715px) {
+    .as-mailing-form [type*="email"] {
+        width: auto;
+    }
+
+    .container-wrp-content {
+        width: 48% !important;
+    }
+    .container-menu-wrp {
+        position: relative;
+    }
+    .location {
+        bottom: -21px;
+    }
+    .as-sale .location {
+        bottom: 51px;
+    }
+    .as-mortgege .location {
+        bottom: 51px;
+    }
+    .as-special-offers .location {
+        bottom: 51px;
+    }
+    .as-stock .location {
+        bottom: 4px;
+    }
+    .content-description {
+        padding: 33px 0px 0 0px;
+    }
+    .as-range .wrp-slider {
+        display: none;
+    }
+    .as-footer .up {
+        flex-direction: column;
+    }
+    .as-footer .social {
+        margin: 19px 45px 0 0;
+    }
+    .as-footer .down .project-info {
+        margin-right: 23px;
+    }
+    .feedback-headline {
+        text-align: justify;
+        font-size: 15px;
+    }
+    .developers-headline {
+        font-size: 15px;
+    }
+    .developers-list a {
+        font-size: 15px;
+    }
+    .developers .all-developers {
+            margin-top: 0px;
+        }
+    .developers .all-developers a {
+        font-size: 15px;
+    }
+    .as-mailing {
+        padding: 83px 0 0 0;
+    }
+}
+
+
+@media (max-width:550px) {
+
+        .container {
+            width: 334px;
+            padding: 0;
+            /* padding: 0px 20px; */
+            /* padding-left: 20px;
+            padding-right: 20px; */
+            /* margin-left: 44px;
+            margin-right: 44px; */
+        }
+
+        .container-txt-mod {
+            width: auto !important;
+        }
+        .as-header {
+            height: 69px;
+        }
+        .as-header .as-header-menu {
+            margin: -6px 0 0 0px;
+        }
+
+        .as-header .as-header-menu-location-form {
+            left: -345px !important;
+            /* right: 178px; */
+            top: 48px;
+            width: 360px;
+        }
+        .as-header-menu-location-form::after, .as-header-menu-location-form::before {
+            right: 17px;
+        }
+        .as-header .location-form-serch input {
+            width: 323px;
+        }
+        .as-header .sprites-location {
+            left: -15px;
+        }
+        .as-header .sprites-head {
+            left: 7px;
+        }
+        .as-header .sprites-search {
+            left: 22px;
+        }
+        .as-header .as-header-menu-a {
+            display: none;
+        }
+        .as-header .as-header-menu-location-form {
+            left: -275px;
+        }
+        .as-header .as-header-menu-search {
+            width: 263px;
+        }
+        .as-header .as-header-menu-search-form {
+            left: -196px;
+        }
+
+        .as-cover {
+            height: 461px;
+        }
+        .as-cover .as-cover-txt {
+            width: 100%;
+            margin-left: 0;
+        }
+        .as-cover .as-cover-txt {
+            padding-top: 126px;
+            line-height: 42px;
+        }
+        .as-cover .as-cover-call-back {
+            margin: 54px auto;
+        }
+
+
+        .as-agvantages {
+            height: auto;
+            flex-direction: column;
+            align-items: center;
+        }
+        .as-agvantages div[class^=as-agvantage] {
+            width: 105%;
+            margin-bottom: 50px;
+        }
+        .as-official {
+            background-position: 0px -186px;
+        }
+        .agvantage-sprite {
+            width: 60px;
+            height: 60px;
+        }
+
+
+        .as-actual {
+            background-position: -60px -186px;
+        }
+
+
+        .as-services {
+            background-position: -120px -187px;
+        }
+        .as-agvantages {
+            padding-top: 49px;
+        }
+        .as-agvantages-txt {
+            padding-top: 15px;
+        }
+        .as-agvantage-actual {
+            padding-left: 0;
+        }
+        .as-agvantage-services {
+            padding-left: 0;
+        }
+
+
+        .as-range .main-container {
+            margin-top: 37px;
+        }
+        .content-more {
+            padding: 15px 0 21px 0;
+        }
+        .container-wrp-content~.container-wrp-content {
+            display: none;
+        }
+        .wrp-slider {
+            display: none;
+        }
+        .as-range .main-h2 {
+            line-height: 8px;
+        }
+        .location {
+            display: none;
+        }
+        .as-range .container-wrp-content {
+            width: 331px;
+            margin: auto;
+            margin-top: -9px;
+        }
+
+        .content-description {
+            padding: 6px 27px 0 13px !important;
+        }
+
+
+        .container-wrp-content {
+            width: 100% !important;
+            margin: auto;
+        }
+        .as-range .button {
+            margin: 22px auto 44px;
+        }
+
+        .as-sale .container-txt {
+            margin-top: -1px;
+        }
+        .as-sale .container-menu-wrp {
+            margin-top: 36px;
+        }
+        .as-sale .location {
+            bottom: 10px;
+        }
+        .as-sale .container-wrp {
+            margin-top: 19px;
+        }
+        .as-sale .button {
+            margin: 25px auto 32px;
+        }
+
+        .as-mortgege .container-txt {
+            margin-top: -1px;
+        }
+        .as-mortgege .container-txt {
+            font-size: 14px;
+        }
+        .as-mortgege .container-menu-wrp {
+            margin: 6px 0 -10px;
+        }
+        .as-mortgege .location {
+            bottom: 7px;
+        }
+        .as-mortgege .button {
+            margin: 27px auto 29px;
+        }
+        .as-special-offers .container-txt {
+            font-size: 14px;
+        }
+
+        .as-special-offers .container-menu-wrp {
+            margin: -6px 0 -10px;
+        }
+        .as-special-offers .location {
+            bottom: 8px;
+        }
+        .as-special-offers .button {
+            margin: 24px auto 55px;
+        }
+
+
+        .as-stock .main-h2 {
+            line-height: 4px;
+        }
+        .as-stock .container-txt {
+            font-size: 14px;
+            line-height: 27px;
+            margin-top: -2px;
+            margin-bottom: 0px;
+        }
+        .as-stock .container-menu-wrp .list {
+            /* height: 52px; */
+        }
+        .as-stock .container-menu-wrp {
+            margin: 22px 0 31px;
+        }
+
+
+        .as-mailing {
+            padding:40px 0 0 0;
+        }
+        .as-mailing-txt {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .as-mailing-form .envelope {
+            display: none;
+        }
+        .as-mailing-form-inputs {
+            flex-direction: column;
+            align-items: center;
+        }
+        .as-mailing-form [type*="email"] {
+            margin-bottom: 20px;
+            width: 330px;
+            height: 50px;
+            font-weight: 400;
+        }
+        .as-mailing-wrp {
+            margin-bottom: 37px;
+        }
+
+
+
+        .as-sale .container-txt {
+            text-align: center;
+        }
+        .as-range .container-menu-wrp {
+            display: block;
+        }
+        .as-sale .location {
+            display: block;
+        }
+         .list {
+            flex-direction: column;
+            width: 165px !important;
+        }
+         .list a {
+            z-index: 998;
+            width: 100%;
+            background: #f0f3f3;
+            color: #202020;
+            text-align: left;
+            padding-left: 15px;
+            border-radius: 5px;
+        }
+         .list::after {
+            z-index: 999;
+            content: "";
+            display: inline-block;
+            width: 18px;
+            height: 13px;
+            position: absolute;
+            top: 19px;
+            left: 132px;
+            background-image: url(../images/sprites.png);
+            background-position: -251px 0px;
+        }
+         .list a~a {
+            display: none;
+        }
+
+        .as-mortgege .location {
+            display: block;
+        }
+
+        .as-mortgege .as-map-mobile {
+            /* display: none; */
+            width: 330px;
+            height: 419px;
+            background-image: url(../images/map-mobile.png);
+        }
+        .as-mortgege .content-img-wrp {
+            display: none;
+        }
+        .as-mortgege .content-description {
+            display: none;
+        }
+        .as-special-offers .location {
+            display: block;
+        }
+        .as-stock .location {
+            display: block;
+            position: absolute;
+            bottom: 0px;
+            right: 3px  ;
+        }
+
+        .as-stock .list {
+            display: block !important;
+            flex-direction: column;
+            width: 165px !important;
+        }
+
+        .as-stock .list a {
+           z-index: 998;
+           width: 100%;
+           background: #f0f3f3;
+           color: #202020;
+           text-align: left;
+           padding-left: 15px;
+           border-radius: 5px;
+       }
+        .as-stock .list::after {
+           z-index: 999;
+           content: "";
+           display: inline-block;
+           width: 18px;
+           height: 13px;
+           position: absolute;
+           top: 19px;
+           left: 132px;
+           background-image: url(../images/sprites.png);
+           background-position: -251px 0px;
+       }
+        .as-stock .list a~a {
+           display: none;
+       }
+
+
+       .developers .developers-list-mod{
+           display: none;
+       }
+       .developers-feedback .feedback {
+            float: none;
+            width: 100%;
+        }
+       .developers-feedback .developers {
+            float: none;
+            width: 100%;
+        }
+        .developers-feedback {
+            height: auto;
+            /* height: 600px; */
+        }
+        .developers .all-developers a {
+            margin-top: 0px;
+            margin-bottom: 54px;
+            width: 100%;
+        }
+        .developers-headline {
+            margin-top: 56px;
+        }
+
+        .developers-list-wrp {
+            columns: 1;
+        }
+
+        .developers-list + .developers-list {
+            margin-left: 0;
+        }
+        .developers-list {
+            margin-top: 29px;
+        }
+
+        .developers-list {
+            width: 100%;
+        }
+
+        .developers-list a{
+            width: 100%;
+        }
+
+
+        .feedback-form input {
+            margin-top: 20px;
+            font-weight: 100;
+        }
+        .feedback-form [type*="submit"] {
+            margin-top: 30px;
+        }
+        .feedback-form textarea {
+            font-weight: 100;
+        }
+
+
+        .as-footer {
+            height: auto;
+        }
+
+        .as-footer .logo-footer {
+            width: 100%;
+            margin-bottom: 27px;
+        }
+        .as-footer .up {
+            flex-direction: column;
+        }
+        .as-footer .up-text {
+            width: 100%;
+        }
+        .as-footer .share {
+            width: 100%;
+            text-align: left;
+        }
+        .as-footer .social {
+            margin: 30px -7px 0 0;
+        }
+        .down .project-info + a + a ~ a {
+            display: none;
+        }
+        .down .project-info ~ a {
+            display: block;
+            margin-top: 22px;
+        }
+        .down .project-info+a+a {
+            padding-bottom: 56px;
+        }
+}
